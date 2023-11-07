@@ -22,7 +22,7 @@ function App() {
       <Schedule/>
       <Contact/>
       <Footer/> */}
-      <div id='header' className='w-full bg-slate-500 h-12 text-xl flex felx-row justify-end fixed'>
+      <div id='header' className='w-full bg-slate-500 h-12 text-xl flex felx-row justify-end fixed z-20'>
         <img src={ieee_logo} alt="IEEE" className='mr-auto'/>
         <ul className='flex gap-x-10 my-auto mr-10 text-white'>
           <li>
