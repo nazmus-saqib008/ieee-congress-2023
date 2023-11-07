@@ -7,7 +7,7 @@ import { faClock,faCutlery,faComment,faBullhorn,faLightbulb,faAward,faCommentDot
 function Schedule() {
   return (
     <div id='schedule'>
-        <h1 className='text-5xl my-12 text-center text-slate-800'>Program Schedule</h1>
+        <h1 className='text-3xl md:text-5xl my-12 text-center text-slate-800'>Program Schedule</h1>
         <div class="timeline">
 
             <div class="tlentry right right1">

@@ -15,10 +15,10 @@ function Details() {
       </div>
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
         <div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
-          <h2 class="text-4xl font-semibold tracking-wide uppercase">
+          <h2 class="text-lg md:text-4xl font-semibold tracking-wide uppercase">
             <span class="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">Event Details</span>
           </h2>
-          <p className='text-white text-2xl my-20'>
+          <p className='text-white text-md md:text-2xl my-20'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum rem soluta doloribus delectus quia assumenda. Veritatis, cum reiciendis. Neque expedita iste itaque et aliquid fuga, in distinctio quo consequuntur laboriosam illo officia nam pariatur aut maxime asperiores beatae tempore omnis odit? Labore consequatur ipsam aspernatur rerum, quos tenetur nihil minus illum ducimus? Neque, omnis nihil. Porro, ratione expedita quisquam nulla molestiae velit voluptatum consequatur dolore quaerat, corporis incidunt nisi obcaecati! Repellendus laudantium ut vero quos. Quis aliquam itaque nemo quisquam suscipit unde aperiam alias hic! Eligendi dolor rem perspiciatis voluptate similique deserunt ex in sequi. Doloremque distinctio ullam vel nostrum, at modi aliquid nisi harum quas. Voluptatum expedita quaerat ullam magni delectus reprehenderit dolore asperiores, adipisci est officiis quae quod enim non explicabo illum laborum hic velit autem commodi!
           </p>
         </div>
