@@ -22,9 +22,9 @@ function App() {
       <Schedule/>
       <Contact/>
       <Footer/> */}
-      <div id='header' className='w-full bg-slate-500 h-12 text-xl flex felx-row justify-end fixed z-20'>
+      <div id='header' className='w-full bg-slate-500 h-12 text-xl flex flex-row justify-end fixed z-20'>
         <img src={ieee_logo} alt="IEEE" className='mr-auto'/>
-        <ul className='flex gap-x-10 my-auto mr-10 text-white'>
+        <ul className="flex flex-row gap-x-3 md:gap-x-10 my-auto mr-10 text-white text-sm md:text-lg">
           <li>
 
             <Link 
@@ -44,7 +44,7 @@ function App() {
               to="about" 
               spy={true} 
               smooth={true} 
-              offset={50} 
+              offset={-40} 
               duration={500} 
               // onSetActive={handleSetActive}
             >About</Link>
@@ -56,7 +56,7 @@ function App() {
               to="schedule" 
               spy={true} 
               smooth={true} 
-              offset={50} 
+              offset={-60} 
               duration={500} 
               // onSetActive={handleSetActive}
             >Schedule</Link>
@@ -68,7 +68,7 @@ function App() {
               to="venue" 
               spy={true} 
               smooth={true} 
-              offset={50} 
+              offset={-60} 
               duration={500} 
               // onSetActive={handleSetActive}
             >Venue</Link>
@@ -79,13 +79,13 @@ function App() {
       <Element name="hero">
         <Hero/>
       </Element>
-      <Element name="about">
+      <Element name="about" className='my-20'>
         <Details/>
       </Element>
-      <Element name="schedule">
+      <Element name="schedule" className='my-20'>
         <Schedule/>
       </Element>
-      <Element name="venue">
+      <Element name="venue" className='my-20'>
         <Venue/>
       </Element>
       <Element name="footer">

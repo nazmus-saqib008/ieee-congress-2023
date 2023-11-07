@@ -5,7 +5,7 @@ import {MdCall} from 'react-icons/md'
 function Venue() {
   return (
     <div className='text-center'>
-      <h1 className='text-5xl'>Venue</h1>
+      <h1 className='text-5xl my-12 text-slate-800'>Venue</h1>
       <div className="flex flex-col md:flex-row">
         <div className='mx-auto w-80 sm:w-2/3 md:w-2/5 my-4'>
         <iframe class="google-map"
