@@ -44,7 +44,7 @@ function App() {
               to="about" 
               spy={true} 
               smooth={true} 
-              offset={-40} 
+              offset={-30} 
               duration={500} 
               // onSetActive={handleSetActive}
             >About</Link>
@@ -56,7 +56,7 @@ function App() {
               to="schedule" 
               spy={true} 
               smooth={true} 
-              offset={-60} 
+              offset={-30} 
               duration={500} 
               // onSetActive={handleSetActive}
             >Schedule</Link>
@@ -68,7 +68,7 @@ function App() {
               to="venue" 
               spy={true} 
               smooth={true} 
-              offset={-60} 
+              offset={-30}
               duration={500} 
               // onSetActive={handleSetActive}
             >Venue</Link>
@@ -79,13 +79,13 @@ function App() {
       <Element name="hero">
         <Hero/>
       </Element>
-      <Element name="about" className='my-20'>
+      <Element name="about">
         <Details/>
       </Element>
-      <Element name="schedule" className='my-20'>
+      <Element name="schedule">
         <Schedule/>
       </Element>
-      <Element name="venue" className='my-20'>
+      <Element name="venue">
         <Venue/>
       </Element>
       <Element name="footer">

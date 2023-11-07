@@ -4,7 +4,7 @@ import bg_image from '../Assets/295499111_1242724226559788_6188795751682533661_n
 function Details() {
   return (
     <>
-    <div class="relative bg-gray-900">
+    <div class="relative bg-gray-900 mt-20">
       <div class="h-80 absolute inset-x-0 bottom-0 xl:top-0 xl:h-full">
         <div class="h-full w-full xl:grid xl:grid-cols-2">
           <div class="h-full xl:relative xl:col-start-2">
