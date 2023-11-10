@@ -6,7 +6,7 @@ import { faClock,faCutlery,faComment,faBullhorn,faLightbulb,faAward,faCommentDot
 
 function Schedule() {
   return (
-    <div id='schedule' className='bg-white pt-20'>
+    <div id='schedule' className='pt-20 bg-white backdrop-filter backdrop-blur-[10px] bg-opacity-30'>
         <h1 className='text-3xl md:text-5xl mb-12 text-center text-slate-800'>Program Schedule</h1>
         <div class="timeline">
 

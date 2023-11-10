@@ -23,7 +23,7 @@ function App() {
       <Contact/>
       <Footer/> */}
       <div id='header' className='w-full bg-slate-500 h-12 text-xl flex flex-row justify-end fixed z-20'>
-        <img src={ieee_logo} alt="IEEE" className='mr-auto'/>
+        <img src={ieee_logo} alt="IEEE" className='mr-auto mix-blend-multiply'/>
         <ul className="flex flex-row gap-x-3 md:gap-x-10 my-auto mr-10 text-white text-sm md:text-lg">
           <li>
 

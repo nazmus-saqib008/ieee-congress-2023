@@ -4,7 +4,7 @@ import bg_image from '../Assets/295499111_1242724226559788_6188795751682533661_n
 function Details() {
   return (
     <>
-    <div class="relative bg-gray-900 mt-20">
+    <div class="relative bg-gray-900">
       <div class="h-80 absolute inset-x-0 bottom-0 xl:top-0 xl:h-full">
         <div class="h-full w-full xl:grid xl:grid-cols-2">
           <div class="h-full xl:relative xl:col-start-2">
@@ -19,7 +19,9 @@ function Details() {
             <span class="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">Event Details</span>
           </h2>
           <p className='text-white text-md md:text-2xl my-20'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum rem soluta doloribus delectus quia assumenda. Veritatis, cum reiciendis. Neque expedita iste itaque et aliquid fuga, in distinctio quo consequuntur laboriosam illo officia nam pariatur aut maxime asperiores beatae tempore omnis odit? Labore consequatur ipsam aspernatur rerum, quos tenetur nihil minus illum ducimus? Neque, omnis nihil. Porro, ratione expedita quisquam nulla molestiae velit voluptatum consequatur dolore quaerat, corporis incidunt nisi obcaecati! Repellendus laudantium ut vero quos. Quis aliquam itaque nemo quisquam suscipit unde aperiam alias hic! Eligendi dolor rem perspiciatis voluptate similique deserunt ex in sequi. Doloremque distinctio ullam vel nostrum, at modi aliquid nisi harum quas. Voluptatum expedita quaerat ullam magni delectus reprehenderit dolore asperiores, adipisci est officiis quae quod enim non explicabo illum laborum hic velit autem commodi!
+          IEEE emphasizes advancing technology for societal betterment. As the largest technical network and one of the oldest, IEEE encourages young individuals to engage in different student branches that serve as exemplary platforms that contribute to their knowledge and expertise. 
+IEEE Kolkata Section presents before all, a day-long event aimed at encouraging participation and interaction among various student branch members! The primary objective of this event is to showcase the activities undertaken by the student branches throughout the year and to interact with the members and office-bearers of IEEE Kolkata Section. Furthermore, IEEE Kolkata Section members will address any concerns raised by the students regarding their branch-related activities.
+The event will also feature several IEEE seniors who will discuss the key benefits of IEEE to the students, along with a coding competition, from which the jury members will select the best student branch based on the performance of various SBs activities under IEEE Kolkata Section throughout the year, and the winning student branch will be awarded.
           </p>
         </div>
       </div>
