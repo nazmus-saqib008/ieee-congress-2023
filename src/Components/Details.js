@@ -1,5 +1,5 @@
 import React from 'react'
-import bg_image from '../Assets/295499111_1242724226559788_6188795751682533661_n.jpg'
+import bg_image from '../Assets/img2.jpg'
 
 function Details() {
   return (

@@ -76,7 +76,7 @@ function Schedule() {
             <div class="date">3:30pm-4:00pm</div>
             <FontAwesomeIcon icon={faComment} size={5} className='icon'/>
             <div class="tlcontent">
-                <h2>Meeting/Interaction of SB with Office-bearers of IEEE Kolkata Section</h2>
+                <h2>Meeting/ Interaction of SB with Office-bearers of IEEE Kolkata Section</h2>
                 
             </div>
             </div>
