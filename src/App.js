@@ -9,6 +9,8 @@ import Footer from './Components/Footer';
 import ieee_logo from './Assets/ieee_logo.png';
 
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
+import Sponsor from './Components/Sponsor';
+import Speaker from './Components/Speaker';
 
 function App() {
   const handleSetActive = (to) => {
@@ -84,6 +86,12 @@ function App() {
       </Element>
       <Element name="schedule">
         <Schedule/>
+      </Element>
+      <Element name="speaker">
+        <Speaker/>
+      </Element>
+      <Element name="sponsor">
+        <Sponsor/>
       </Element>
       <Element name="venue">
         <Venue/>

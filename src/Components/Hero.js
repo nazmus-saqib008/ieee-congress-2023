@@ -15,6 +15,7 @@ function Hero() {
               <div className='bg-black text-white px-8 py-4 text-xl font-bold'>29 Nov</div>
               <div className="bg-white text-black px-8 py-4 text-xl font-bold">2023</div>
           </div>
+          <a href='https://docs.google.com/forms/d/e/1FAIpQLScgb_lFOvUSgzurCLvoHZmtg-TwFvI_ykAVYD3l6a3HgEle_Q/viewform?usp=send_form' target='blank' className='bg-white text-black px-8 py-4 text-xl font-bold mt-12 hover:bg-indigo-400 hover:text-white transition duration-500'>Register Now</a>
         </div>
     </div>
 
