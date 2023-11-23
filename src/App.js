@@ -4,6 +4,7 @@ import './App.css';
 import Hero from './Components/Hero';
 import Details from './Components/Details';
 import Schedule from './Components/Schedule';
+import Event from './Components/Event';
 import Venue from './Components/Venue';
 import Footer from './Components/Footer';
 import ieee_logo from './Assets/ieee_logo.png';
@@ -86,6 +87,9 @@ function App() {
       </Element>
       <Element name="schedule">
         <Schedule/>
+      </Element>
+      <Element name="events">
+        <Event/>
       </Element>
       <Element name="speaker">
         <Speaker/>
