@@ -37,7 +37,7 @@ function Hero() {
   }, []); 
 
   return (
-    <div id='hero' className='h-[650px] pt-10 text-center'>
+    <div id='hero' className='pt-10 text-center'>
         <img src={bg_img} alt="" className='fixed -z-10 h-[100vh] w-full object-cover'/>
         <div className='h-full w-full backdrop-filter backdrop-blur-[2px] bg-opacity-30 items-center flex flex-col'>
 
@@ -48,7 +48,7 @@ function Hero() {
               <div className='bg-black text-white px-8 py-4 text-xl font-bold'>29 Nov</div>
               <div className="bg-white text-black px-8 py-4 text-xl font-bold">2023</div>
           </div>
-          <div className='flex flex-row mt-2'>
+          <div className='flex flex-col md:flex-row mt-2'>
               <div className='bg-white text-black px-3 py-4 text-xl font-bold'>{time.days}</div>
               <div className="bg-black text-white px-5 py-4 text-xl font-bold">days</div>
               <div className='bg-white text-black px-3 py-4 text-xl font-bold'>{time.hours}</div>
@@ -58,7 +58,7 @@ function Hero() {
               <div className='bg-white text-black px-3 py-4 text-xl font-bold'>{time.seconds}</div>
               <div className="bg-black text-white px-5 py-4 text-xl font-bold">seconds to go!</div>
           </div>
-          <a href='https://docs.google.com/forms/d/e/1FAIpQLScgb_lFOvUSgzurCLvoHZmtg-TwFvI_ykAVYD3l6a3HgEle_Q/viewform?usp=send_form' target='blank' className='bg-white text-black px-8 py-4 text-xl font-bold mt-12 hover:bg-indigo-400 hover:text-white transition duration-500'>Register Now</a>
+          <a href='https://docs.google.com/forms/d/e/1FAIpQLScgb_lFOvUSgzurCLvoHZmtg-TwFvI_ykAVYD3l6a3HgEle_Q/viewform?usp=send_form' target='blank' className='bg-white text-black px-8 py-4 text-xl font-bold mt-12 mb-12 hover:bg-indigo-400 hover:text-white transition duration-500'>Register Now</a>
         </div>
     </div>
 
