@@ -98,7 +98,7 @@ function App() {
         </ul>
       </div> */}
 
-      <nav className="fixed flex flex-row w-full min-h-fit sm:px-0 font-Raleway text-xl drop-shadow-[0_4px_23px_rgba(0,0,0,0.9)] bg-slate-500 z-50">
+      <nav className="fixed flex flex-row w-full min-h-fit sm:px-0 font-roboto text-xl drop-shadow-[0_4px_23px_rgba(0,0,0,0.9)] bg-slate-500 z-50">
         <div className="flex flex-row sm:py-0 justify-center sm:justify-normal sm:pl-8 w-full min-h-fit items-center bg-slate-500 gap-44">
           <img
             src={ieee_logo}
