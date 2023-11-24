@@ -5,3 +5,6 @@
 #header ul li .active{
   color: rgb(8 51 68);
 }
+nav .links .active{
+  color: rgb(8 51 68);
+}
