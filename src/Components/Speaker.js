@@ -8,7 +8,7 @@ function Speaker() {
       id="speakers"
       className="flex h-fit flex-col justify-center items-center bg-white py-8"
     >
-      <h1 className="text-3xl md:text-5xl mb-12 text-center">Speakers</h1>
+      <h1 className="text-[2rem] font-roboto font-semibold md:text-5xl mb-12 text-center">Speakers</h1>
       <div className="relative flex flex-wrap justify-center items-center gap-[3rem] px-2 py-2">
         <div className="card relative border w-96 h-[450px] p-2 rounded-md">
           <div className="imgbox relative w-full h-4/5">

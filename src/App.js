@@ -118,7 +118,7 @@ function App() {
         </div>
 
         <div
-          className={`links w-full sm:pl-0 pl-9 pr-2 sm:pb-0 pb-4 absolute sm:static flex flex-col sm:flex-row sm:justify-center sm:items-center gap-4 sm:gap-16 sm:z-10 transition-all duration-500 bg-slate-500 ease-in -z-10 ${
+          className={`links w-full sm:pl-0 pl-9 pr-4 sm:pb-0 pb-4 absolute sm:static flex flex-col sm:flex-row sm:justify-center sm:items-center gap-4 sm:gap-16 sm:z-10 transition-all duration-500 bg-slate-500 ease-in -z-10 ${
             open
               ? "top-[4.5rem] opacity-100"
               : "top-[-14rem] sm:opacity-100 opacity-0"
@@ -156,6 +156,17 @@ function App() {
             className="links text-white cursor-pointer"
           >
             Schedule
+          </Link>
+          <Link
+            to="events"
+            spy={true}
+            smooth={true}
+            offset={-64}
+            duration={500}
+            activeClass="active"
+            className="links text-white cursor-pointer"
+          >
+            Event
           </Link>
           <Link
             to="speaker"

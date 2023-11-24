@@ -6,14 +6,14 @@ function Sponsor() {
   return (
     <div
       id="hero"
-      className="h-[550px] pt-10 flex flex-col justify-center items-center bg-slate-800"
+      className="h-[550px] pt-10 flex flex-col justify-center items-center bg-slate-400"
     >
       <img
         src={bg_img}
         alt=""
         className="fixed -z-10 h-[100vh] w-full object-cover"
       />
-      <h1 className="text-3xl md:text-5xl mb-12 text-center text-purple-300">
+      <h1 className="text-[2rem] md:text-5xl mb-12 text-center text-sky-900 font-roboto font-bold">
         Sponsors
       </h1>
       <div className="h-full w-full backdrop-filter backdrop-blur-[2px] bg-opacity-30 items-center flex flex-col">

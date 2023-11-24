@@ -18,7 +18,7 @@ function Schedule() {
       id="schedule"
       className="pt-20 bg-white backdrop-filter backdrop-blur-[10px] bg-opacity-30"
     >
-      <h1 className="text-3xl md:text-5xl mb-12 text-center text-slate-800">
+      <h1 className="text-3xl md:text-5xl mb-12 text-center text-slate-800 font-roboto font-semibold">
         Program Schedule
       </h1>
       <div class="timeline">
