@@ -104,7 +104,7 @@ function App() {
             src={ieee_logo}
             alt="logo"
             height={50}
-            width={90}
+            width={70}
             className="inline"
           />
           <span className="inline sm:hidden">
