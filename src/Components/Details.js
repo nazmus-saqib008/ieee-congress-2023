@@ -16,7 +16,7 @@ function Details() {
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
         <div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
           <h2 class="text-lg md:text-4xl font-semibold tracking-wide uppercase">
-            <span class="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">Event Details</span>
+            <span class="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent font-bold text-[2rem] sm:text-[3rem]">Event Details</span>
           </h2>
           <p className='text-white text-md md:text-2xl my-20'>
           IEEE emphasizes advancing technology for societal betterment. As the largest technical network and one of the oldest, IEEE encourages young individuals to engage in different student branches that serve as exemplary platforms that contribute to their knowledge and expertise. 
