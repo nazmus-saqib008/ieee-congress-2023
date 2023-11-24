@@ -107,6 +107,9 @@
 .tlentry.right1 .date {
   left: -9rem;
 }
+.tlentry.right2 .date {
+  left: -11rem;
+}
 
 .tlentry .icon {
   position: absolute;
